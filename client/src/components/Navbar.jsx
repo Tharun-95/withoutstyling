@@ -9,7 +9,7 @@ const Navbar = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   const navLinks = [
-    { name: 'Home', path: '/', icon: <MapPin className="w-5 h-5 mr-1" /> },
+    { name: 'Home', path: '/home', icon: <MapPin className="w-5 h-5 mr-1" /> },
     { name: 'Report Issue', path: '/report', icon: <AlertCircle className="w-5 h-5 mr-1" /> },
     { name: 'Map View', path: '/map', icon: <MapPin className="w-5 h-5 mr-1" /> },
     { name: 'Admin', path: '/admin', icon: <LayoutDashboard className="w-5 h-5 mr-1" /> },
