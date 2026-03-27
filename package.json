@@ -1,0 +1,27 @@
+{
+  "name": "selvaproject",
+  "version": "1.0.0",
+  "description": "**Mobile-First Web Application** - **Frontend (Client):** React.js with Tailwind CSS, context API/Zustand for state management, PWA capabilities for mobile-first experience. - **Backend (Server):** Node.js with Express.js acting as a REST API layer. - **Database:** MongoDB (via Mongoose) for structured data (users, issues, roles). - **Storage:** Firebase Cloud Storage / AWS S3 for storing user-uploaded photos. - **AI/ML Layer:** Google Vision API integrated at the Node.js backend to classify uploaded images (pothole, garbage, etc.) and assign initial severity. - **Map Services:** Google Maps API (Maps JavaScript API for frontend, Geocoding API for backend). - **Notification Service:** Nodemailer (Email) / Twilio (SMS).",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "axios": "^1.13.6",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "form-data": "^4.0.5",
+    "jsonwebtoken": "^9.0.3",
+    "leaflet": "^1.9.4",
+    "mongoose": "^7.8.9",
+    "multer": "^2.1.1"
+  }
+}
